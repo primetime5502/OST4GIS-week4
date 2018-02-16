@@ -6,6 +6,7 @@ body {
     padding: 0;
     overflow: hidden;
     font-family: helvetica, arial, sans-serif;
+    background: #808080;
 }
 
 .map {
@@ -14,6 +15,8 @@ body {
     left: 340px;
     height: 100%;
     top: 0;
+    border-top: 25px solid black;
+    border-bottom: 25px solid black;
 }
 
 .sidebar {
@@ -24,4 +27,55 @@ body {
     bottom: 0;
     overflow-y: auto;
     padding: 20px;
+    border-top: 25px solid black;
+    border-bottom: 25px solid black;
+}
+.square {
+  height: 100px;
+  width: 285px;
+  background-color: #F5F5F5;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.hrstyle {
+	background-color: #fff;
+	border-top: 2px dotted #8c8b8b;
+}
+.h1{
+  margin: 0;
+  display: inline-block;
+  font-size: 16pt;
+}
+.h2{
+  font-size: 11pt;
+  font-weight: normal;
+  color: #F5F5F5;
+}
+.button{
+  float: right;
+  font-size: 11pt;
+  color: #808080;
+}
+.dropdown{
+  font-size: 11pt;
+  margin-bottom: 10px;
+  color: #808080;
+}
+.schoolname{
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 10pt;
+  font-weight: bold;
+  color: #B22222;
+}
+.schooltype{
+  font-size: 10pt;
+  padding-left: 10px;
+  font-weight: normal;
+  color: #A9A9A9;
+}
+.schooladdress{
+  padding-bottom: 5px;
+  padding-left: 10px;
+  font-size: 9pt;
 }
